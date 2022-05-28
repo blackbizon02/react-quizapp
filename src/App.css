@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.start-quiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.start-quiz h1 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  text-align: center;
+  color: #293264;
+}
+
+.start-quiz p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #293264;
+}
+
+.start-quiz button {
+  width: 193px;
+  height: 52px;
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  border: none;
+  outline: none;
+}
+
+.start-quiz button:hover {
+  background-color: #3e4a88;
+}
+
+.start-quiz button:active {
+  box-shadow: -10px 9px 5px 0px rgba(0,0,0,0.52) inset;
+  -webkit-box-shadow: -10px 9px 5px 0px rgba(0,0,0,0.52) inset;
+  -moz-box-shadow: -10px 9px 5px 0px rgba(0,0,0,0.52) inset;
+}
+
+.ques {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  color: black;
+  border-bottom: 1px solid #DBDEF0;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.ques h4 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 19px;
+  color: #293264;
+}
+
+.btn-ques {
+  padding: 5px 30px;
+  border: 1px solid #4D5B9E;
+  color: #293264;
+  border-radius: 15px;
+  background-color: transparent;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main-content .submit {
+  width: 150px;
+  height: 40px;
+  background: #4D5B9E;
+  border-radius: 10px;
+  color: #F5F7FB;
+  max-width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.24px;
+  line-height: 12px;
+  text-align: center;
+  border: none;
+  margin-top: 30px;
+}
+
+@media (min-width: 1200px) {
+.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1000px !important;
+}
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz__finalText {
+  margin-top: 35px;
+  margin-right: 20px;
+}
